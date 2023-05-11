@@ -24,7 +24,7 @@ public class ApiAccessController {
 
     /**
      * http://localhost:8080/authorize?username=xfg&password=123
-     * http://207.246.123.150:8080/authorize?username=xfg&password=123
+     * http://api.xfg.im:8080/authorize?username=xfg&password=123
      */
     @RequestMapping("/authorize")
     public ResponseEntity<Map<String, String>> authorize(String username, String password) {
